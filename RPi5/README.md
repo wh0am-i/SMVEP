@@ -16,7 +16,7 @@ RPi5/v2/ <br>
 ├── yolov8n.onnx # Modelo exportado para ONNX <br>
 ├── yolov8n_openvino_model/ # Modelo otimizado OpenVINO <br>
 ├── yolov8n_ncnn_model/ # Modelo otimizado NCNN <br>
-└── venv/ # Ambiente virtual Python; iniciar com venv/bin/activate <br>
+└── venv/ # Ambiente virtual Python; iniciar com source venv/bin/activate <br>
 
 ### Requisitos
 - Raspbian OS

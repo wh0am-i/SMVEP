@@ -6,8 +6,8 @@ Projeto de **visão computacional em tempo real** utilizando **YOLOv8** com dife
 ### Estrutura do código
 
 jetsonNano/ <br>
-├── setup.sh # Script de start do container Docker da Nvidia <br>
-├── run.sh # Script de execução com tmux para verificação de performance (rodar com index2.py ou indexGUILess.py) <br>
+├── setup.sh # Script de instalação do Docker e importação do container <br>
+├── run.sh # Script de execução do container <br>
 ├── save.sh # Script para salvar alterações dentro do container <br>
 ├── GUIMode.sh # Execução em modo gráfico (GUI) <br>
 └── terminalMode.sh # Execução em modo headless (sem interface gráfica) <br>
@@ -36,7 +36,8 @@ codigosContainer/ <br>
 obs: já instalados no container Docker
 
 ### Instalação e uso
-- rodar setup.sh
+- rodar setup.sh para instalar docker e importar container
+- rodar run.sh para iniciar container
 - dentro do container navegar até a pasta visaoComputacional/
 - rodar run.sh
 - se desejado utilizar o indexGUILess.py, faz-se necessário executar o terminalMode.sh fora do container antes e alterar o index.py para indexGUILess.py dentro do run.sh de executar o run.sh
