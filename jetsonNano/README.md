@@ -24,8 +24,7 @@ codigosContainer/ <br>
 ├── log.txt # Log de métricas (FPS, latência, CPU) <br>
 ├── yolov8n.pt # Modelo YOLOv8 original (PyTorch) <br>
 ├── yolov8n.onnx # Modelo exportado para ONNX <br>
-├── yolov8n.engine # Modelo otimizado (TensorRT / ncnn) <br>
-└── venv/ # Ambiente virtual Python; iniciar com venv/bin/activate <br>
+└── yolov8n.engine # Modelo otimizado (TensorRT / ncnn) <br>
 ---
 
 ### Requisitos
