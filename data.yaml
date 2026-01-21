@@ -1,0 +1,12 @@
+path: /home/labcsi/Documents/visaoComputacional/dataset
+train: train/images              
+val: val/images               
+
+nc: 5                        
+
+names:
+  0: empty
+  1: car
+  2: car_plate
+  3: truck
+  4: bus

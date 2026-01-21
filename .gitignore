@@ -8,3 +8,5 @@ dataset/val/images/*
 dataset/val/labels/*
 dataset/train/images/*
 dataset/train/labels/*
+dataset/images/*
+dataset/labels/*
