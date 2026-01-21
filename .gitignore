@@ -1,6 +1,10 @@
 venv/
-jetsonNano/container/dataset/train/
-jetsonNano/container/dataset/val/
-jetsonNano/container/dataset/images/
-jetsonNano/container/dataset/labels/
 
+RPi5/venv/
+
+windows/venv/
+
+dataset/val/images/*
+dataset/val/labels/*
+dataset/train/images/*
+dataset/train/labels/*

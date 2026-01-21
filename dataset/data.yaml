@@ -1,0 +1,11 @@
+path: dataset  # diretório raiz do dataset
+train: images/train              # imagens de treino (relativo ao path)
+val: images/val                  # imagens de validação (relativo ao path)
+
+nc: 4                            # número de classes
+
+names:
+  0: car
+  1: carPlate
+  2: bus
+  3: truck
