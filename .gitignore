@@ -10,3 +10,4 @@ dataset/train/images/*
 dataset/train/labels/*
 dataset/images/*
 dataset/labels/*
+dataset/imgZips/*
