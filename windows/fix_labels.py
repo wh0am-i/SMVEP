@@ -2,8 +2,8 @@ from pathlib import Path
 
 # pastas de labels
 labels_dirs = [
-    Path("../dataset/train/labels"),
-    Path("../dataset/val/labels"),
+    Path("./dataset/train/labels"),
+    Path("./dataset/val/labels"),
 ]
 
 for labels_path in labels_dirs:

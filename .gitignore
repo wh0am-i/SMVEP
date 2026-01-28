@@ -1,12 +1,21 @@
-venv/
+venv311/
 
 RPi5/venv/
 
-windows/venv/
-
+dataset/imgZips/*
 dataset/val/images/*
 dataset/val/labels/*
 dataset/train/images/*
 dataset/train/labels/*
 dataset/images/*
 dataset/labels/*
+
+
+!runs/
+!runs/detect/
+
+runs/detect/train*/
+
+!runs/detect/train*/weights/
+!runs/detect/train*/weights/best.pt
+

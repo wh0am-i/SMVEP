@@ -2,10 +2,10 @@ import cv2
 from ultralytics import YOLO
 
 # Carrega o modelo (pode ser yolov8n.pt ou best.pt)
-model = YOLO("../runs/detect/train(númeroDoTreino)/weights/best.pt")
+model = YOLO("../runs/detect/train/weights/best.pt")
 
 # Abre o vídeo
-cap = cv2.VideoCapture("caminho_video")  # caminho do vídeo
+cap = cv2.VideoCapture("F:/SMVEP/Videos/streetRioDia.mp4")  # caminho do vídeo
 
 if not cap.isOpened():
     print("Erro ao abrir o vídeo")
@@ -15,7 +15,7 @@ while True:
     ret, frame = cap.read()
     if not ret:
         break  # fim do vídeo
-    frame_up = cv2.resize(frame, (640, 640))
+    frame_up = cv2.resize(frame, (1280, 720))
     # Inferência
     results = model(frame_up, device=0, conf=0.7, half=True)
     print(len(results[0].boxes))
