@@ -10,6 +10,7 @@ dataset/train/labels/*
 dataset/images/*
 dataset/labels/*
 
+models/*
 
 !runs/
 !runs/detect/

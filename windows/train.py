@@ -3,18 +3,18 @@ from ultralytics import YOLO
 def main():
 
     # Treinamento
-    model = YOLO("../models/yolov8n.pt")
+    model = YOLO("../models/yolo11x.pt")
 
     model.train(
         data="data.yaml",
         epochs=50,
-        imgsz=1280,
+        imgsz=896,
         rect=True,
         device=0,
 
         cache="disk",
         workers=6,
-        batch=6,
+        batch=2,
         amp=False,
         deterministic=False
     )

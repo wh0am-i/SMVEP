@@ -2,7 +2,7 @@ import cv2
 from ultralytics import YOLO
 
 # Carrega o modelo (pode ser yolov8n.pt ou best.pt)
-model = YOLO("../runs/detect/train/weights/best.pt")
+model = YOLO("runs/detect/train4/weights/best.pt")
 
 # Abre o vídeo
 cap = cv2.VideoCapture("F:/SMVEP/Videos/streetRioDia.mp4")  # caminho do vídeo
